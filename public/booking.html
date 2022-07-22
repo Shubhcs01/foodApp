@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe Payment Demo</title>
+  </head>
+  <body>
+    <h3>Welcome to Playment Gateway</h3>
+    <form action="createSession" method="POST">
+      <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="pk_test_51LN8T2SCnQxzMotlYcFAZa4MEUKxPdjCOux4LuSwIyxJhS3i0OE1gYcNtmwEsM8Ollw9JBY0U4XKWyqwv5A1AdXn00KQtpAVBv"
+        data-amount="7000"
+        data-currency="usd"
+        data-name="FoodApp"
+        data-description="Buy Food Plan"
+        data-locale="auto"
+      ></script>
+    </form>
+  </body>
+</html>
